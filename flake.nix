@@ -16,6 +16,14 @@
         path = ./ocaml;
         description = "OCaml development environment";
       };
+      python = {
+        path = ./python;
+        description = "Python development environment with pip";
+      };
+      zig = {
+        path = ./zig;
+        description = "Zig development environment";
+      };
     };
   };
 }
